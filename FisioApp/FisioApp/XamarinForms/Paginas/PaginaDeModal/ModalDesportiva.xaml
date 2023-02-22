@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FisioApp.XamarinForms.Paginas.PaginaDeModal.ModalDesportiva">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+
+                <Label Text=""/>
+
+                <Button Text="Dados Pessoais"/>
+
+                <Label Text="01 - Data da Avaliação"/>
+                <DatePicker/>
+
+                <Label Text="02 - Data de Nascimento"/>
+                <DatePicker/>
+
+                <Label Text="03 - Gênero"/>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton Content="Masculino"/>
+                    <RadioButton Content="Feminino"/>
+                </StackLayout>
+
+                <Label Text="04 - Etnia"/>
+                <Entry/>
+
+                <Label Text="05 - Telefone"/>
+                <Entry/>
+
+                <Label Text="06 - Endereço"/>
+                <Entry/>
+
+                <Label Text="07 - Estado Civil"/>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton Content="Solteiro"/>
+                    <RadioButton Content="Casado"/>
+                    <RadioButton Content="Divorciado"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton Content="Viúvo"/>
+                    <RadioButton Content="Amasiado"/>
+                </StackLayout>
+
+                <Label Text="08 - Grau de Instrução"/>
+                <RadioButton Content="Analfabeto"/>
+                <RadioButton Content="Ens. Fundamental"/>
+                <RadioButton Content="Ens. Fundamental Incompleto"/>
+                <RadioButton Content="Ens. Médio"/>
+                <RadioButton Content="Ens. Médio Incompleto"/>
+                <RadioButton Content="Ens. Superior"/>
+                <RadioButton Content="Ens. Superior Incompleto"/>
+                <RadioButton Content="Pós-Graduação"/>
+                <RadioButton Content="Pós-Graduação Incompleto"/>
+
+                <Label Text="09 - Formação"/>
+                <Entry/>
+
+                <Label Text="10 - Atividade Profissional"/>
+                <Entry/>
+
+                <Button Text="Esporte"/>
+
+                <Label Text="11 - Modalidade Esportiva"/>
+                <Entry/>
+
+                <Label Text="12 - Dominância do membro para o gesto esportivo:"/>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton Content="Direito"/>
+                    <RadioButton Content="Esquerdo"/>
+                </StackLayout>
+                <RadioButton Content="Ambidestro"/>
+                
+                <Label Text="13 - Tempo de treinamento da modalidade (em anos):"/>
+                <Entry/>
+
+                <Label Text="14 - Frequência de treino (dias/semanas):"/>
+                <Entry/>
+
+                <Label Text="15 - Tempo de treino (horas/dia):"/>
+                <Entry/>
+                
+                <Label Text="16 - Pratica outro esporte ou realiza outras atividades físicas?"/>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton Content="Não"/>
+                    <RadioButton Content="Sim"/>
+                </StackLayout>
+
+                <Label Text="Qual:"/>
+                <Entry/>
+
+                <Label Text="Frequência Semanal:"/>
+                <Entry/>
+
+                <Label Text="Treino físico (horas/dia) com preparador físico e academia:"/>
+                <Entry/>
+
+                <Label Text="Treino técnico (horas/dia):"/>
+                <Entry/>
+
+                <Button Text="Diagnóstico Médico"/>
+                <Entry/>
+
+                <Button Text="Queixa Principal"/>
+                <Entry/>
+
+                <Button Text="História da Doença Atual"/>
+                <Entry/>
+                
+                <Button Text="Avaliação de Dor"/>
+                <Entry/>
+                
+                <Label Text=""/>
+                <Label Text="17 - Sente dor ou incômodo:"/>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton Content="Não"/>
+                    <RadioButton Content="Sim"/>
+                </StackLayout>
+
+                <Label Text="18 - Há quanto tempo sente dor:"/>
+                <Entry/>
+
+                <Label Text=""/>
+
+                <Label Text=""/>
+
+                <Label Text=""/>
+
+                <StackLayout>
+                    <Button Text="Salvar" Clicked="SalvarCadastro"/>
+                    <Button Text="Fechar" Clicked="FecharModal"/>
+                </StackLayout>
+            </StackLayout>
+
+        </ScrollView>
+        
+        
+
+    </ContentPage.Content>
+</ContentPage>

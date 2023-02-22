@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             Title="Fisio App"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FisioApp.XamarinForms.Paginas.Modal.Conteudo01">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Margin="10" Text="Avaliação Desportiva" Clicked="AbrirDesportiva"/>
+            <Button Margin="10" Text="Avaliação Cardiorrespiratória" Clicked="AbrirCardio"/>
+            <Button Margin="10" Text="Configurações" Clicked="AbrirCardio"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

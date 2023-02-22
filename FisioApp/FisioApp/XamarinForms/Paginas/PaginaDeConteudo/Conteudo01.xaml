@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FisioApp.XamarinForms.Paginas.PaginaDeConteudo.Conteudo01">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Clique aqui"/>
+            <Button Text="Clique aqui"/>
+            <Button Text="Clique aqui"/>
+            <Button Text="Clique aqui"/>
+            <Label Text="Teste de Label" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
