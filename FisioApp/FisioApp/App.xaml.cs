@@ -18,7 +18,8 @@ namespace FisioApp
             //MainPage = new AppShell();
 
             var pagina = new NavigationPage(
-                new XamarinForms.Paginas.Modal.Conteudo01()                 
+                new XamarinForms.Paginas.Modal.Conteudo01()     
+                
             );
             MainPage = pagina;
 
